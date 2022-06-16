@@ -10,7 +10,7 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
     display: flex;
@@ -94,6 +94,7 @@ body {
 
 .link-blue {
     color: #0095f6;
+    cursor: pointer;
 }
 
 .get-the-app {
@@ -137,9 +138,6 @@ body {
 }
 
 @media (max-width: 650px) {
-    body {
-        background-color: #ffffff;
-    }
 
     .instagram-wrapper {
         width: 90%;
@@ -153,7 +151,4 @@ body {
         width: 100%;
     }
     
-    .group {
-        border: 1px solid transparent;
-    }
 }
