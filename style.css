@@ -10,7 +10,11 @@
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: #ffffff;
+    background: linear-gradient(
+        195deg,
+        rgb(207, 26, 177) 0%,
+        rgb(202, 151, 11) 98%
+    );
     margin: 0;
     padding: 0;
     display: flex;
